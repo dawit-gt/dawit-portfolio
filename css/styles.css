@@ -153,12 +153,17 @@ h2 {
 .stat h3 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: white;
+  color: #111;
 }
 
 .stat p {
-  color: white;
+  color: #111;
   font-weight: 500;
+}
+
+body.dark .stat h3,
+body.dark .stat p {
+  color: white;
 }
 
 .projects-grid {
